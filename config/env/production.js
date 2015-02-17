@@ -34,5 +34,4 @@ module.exports = {
   // log: {
   //   level: "silent"
   // }
-  sails.config.models.migrate="safe"
 };
