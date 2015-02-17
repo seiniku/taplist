@@ -59,7 +59,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="tap in taps track by id | toArray |filter:{tapid: '0'} | orderBy:'tapid*1' track by tap.id" ng-click="!editable  && (tap.qty = tap.qty - 1)">
+          <tr ng-repeat="tap in taps| toArray |filter:{tapid: '0'} | orderBy:'tapid*1' track by tap.id" ng-click="!editable  && (tap.qty = tap.qty - 1)">
             <td contenteditable={{editable}} ng-model="tap.tapid"></td>
             <td contenteditable={{editable}} ng-model="tap.beername"></td>
             <td contenteditable={{editable}} ng-model="tap.description"></td>
