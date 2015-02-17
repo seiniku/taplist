@@ -1,0 +1,8 @@
+.btn-xxs {  
+  padding:1px;
+  font-size: 7px;
+  line-height: normal;
+  -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+      border-radius: 2px;
+}

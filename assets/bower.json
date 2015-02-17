@@ -1,0 +1,22 @@
+{
+  "name": "taplist",
+  "version": "0.0.0",
+  "authors": [
+    "jkeppers <justin@keppers.org>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.3.13",
+    "angular-sails-bind": "~1.0.5",
+    "bootstrap": "~3.3.2",
+    "angular-smart-table": "~1.4.11"
+  }
+}
